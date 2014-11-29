@@ -1,13 +1,13 @@
+#include<vector>
+#include<string>
+using namespace std;
 class Document
 {
-private:
+	public:
 	vector<string> words;
 	bool relevant;
-public:
-	string getSentence();
-	vector<string> getWords()
-	{
-		return words;
-	}
-
+	double score;
+	int index;
+	vector<string>& getWords();
+	void add(string word);
 };

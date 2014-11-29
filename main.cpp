@@ -1,12 +1,13 @@
 #include "BinaryIndependenceModel.hpp"
-#include <cstring>
+#include<cstdlib>
+#include<iostream>
+using namespace std;
 int main(int argv, char *argc[])
 {
-	if(argv>1)
-	{
-		if(strcmpi(argc[1],"-h"==0 || strcmpi(argc[1],"--help")==0)
-			std::cout<<"enter input: format is\nr\n<_doc1word1_doc1word2...>\n<doc2word1_doc2word2...>\n...\nn\n<_doc1word1_doc1word2...>\n<doc2word1_doc2word2...>\n...\n";
-	}
-	BinaryIndependenceModel.run_program();
+	BinaryIndependenceModel b;
+	if(argv<2)return 0;
+	int ret_docs = atoi(argc[2]);
+	cout<<ret_docs<<endl;
+	b.run_program(argc[1],ret_docs);
 	return 0;
 }

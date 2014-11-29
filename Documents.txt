@@ -1,0 +1,16 @@
+15
+6 hello world my first c program
+6 information retrieval is fun for all
+6 information technology has been growing rapidly
+6 information technology is a huge industry
+4 c programming fun is
+5 programming basic knowledge should have
+4 different retrieval algorithms exist
+7 info retrieval involves gathering and organising data
+5 data present in raw form
+3 processing modifies data
+4 data mining closely related
+5 processing of information takes place
+4 exponential increase in data
+4 information is processed data
+5 c is a basic language
